@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* reset */
+*{
+    margin: 0;padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #333;
+    font-family: "맑은 고딕";
+}
+.hidden{display: none;}
+img{display: block;}
+
+/* wrap area */
+#wrap{width: 1920px;height: 3900px; margin: auto;}
+
+/* header area */
+header{width: 1300px;height: 125px; margin: auto; display: flex;}
+
+header h1{padding-top: 70px;}
+header nav ul{display: flex;}
+header nav ul li{width: 120px; height: 125px; margin: auto; padding: 87px 0 0 50px; color: #333; text-align: center; font-weight: bold; font-size: 12.2px;}
+header nav ul li a:hover{ color: #B41E23;}
+
+
+/* Main Slide */
+#slide{width: 1920px; height: 700px; position: relative;}
+#slide ul li > img{position: absolute;}
+
+#banner{width: 1300px; margin: auto; display: flex; justify-content: space-between; padding-top: 80px;}
+
+#contents{width: 1920px; margin: auto; padding-top: 70px;}
+#contents h2{text-align: center; color: #B41E23; font-size: 70px; font-weight: bold;}
+#contents > p{text-align: center; color: #333; font-size: 30px; font-weight: bold; letter-spacing: -1px;}
+#contents .content-wrap{width: 1600px; margin: auto; display: flex; justify-content: space-between; padding-top: 80px;}
+#contents .content-wrap > img{width: 350px; margin: auto;}
+
+#life{width: 1920px; padding-top: 100px;}
+
+#blood{width: 1920px; margin: auto; padding-top: 100px;}
+#blood > .bloodA{width: 1600px; margin: auto; display: flex; border-top: solid 2px #333; border-bottom: solid 2px #333;}
+#blood > .bloodA > img{width: 200px; height: 200px;}
+#blood > .bloodA > .text{width: 1400px; padding-top: 10px; padding-left: 50px; line-height: 2.5;}
+#blood > .bloodA > .text > h2{font-weight: bold; font-size: 38px;}
+#blood > .bloodA > .text > p{font-weight: bold; font-size: 23px;}
+
+#blood > .bloodB{width: 1600px; margin: auto; padding-top: 80px;}
+#blood > .bloodB ul{display: flex; justify-content: space-between;}
+#blood > .bloodB ul li > h4{text-align: center; font-size: 23px; padding-top: 10px; color: #333; font-weight: bold;}
+#blood > .bloodB ul li > p{text-align: center; padding-top: 20px; font-weight: bold; font-size: 30px; color: #333; padding-bottom: 90px;}
+
+footer{width: 1920px; margin: auto;}
